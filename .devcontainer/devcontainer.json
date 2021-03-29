@@ -34,6 +34,12 @@
 		"ms-python.python"
 	],
 	"postCreateCommand": "~/.pyenv/versions/ompl/bin/python -m pip install -r requirements.txt",
+	"runArgs": [
+		"-v",
+		"/tmp/.X11-unix:/tmp/.X11-unix",
+		"-e",
+		"DISPLAY=$DISPLAY",
+	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.

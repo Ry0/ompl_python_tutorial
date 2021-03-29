@@ -2,6 +2,7 @@ import ompl
 from ompl import base as ob
 from ompl import geometric as og
 import numpy as np
+
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
@@ -85,6 +86,7 @@ def plot_result(state_space, path_result, planning_data):
     ax.scatter(goal_s[0], goal_s[1], color="#ff8c00")
 
     # 画像保存
+    plt.show()
     fig.savefig("reuslt.png")
 
 
