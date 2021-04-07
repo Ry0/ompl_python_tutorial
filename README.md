@@ -43,3 +43,8 @@ StateSpaceを`SE2StateSpace`から`RealVectorStateSpace`に変更したもの。
 2次元の探索テスト。実際に障害物を入れて動作を確認している。
 
 ![img](.image/2.png)
+
+## tutorial_5
+3次元の探索テスト。3次元の姿勢も含む。
+
+![img](.image/3.png)
