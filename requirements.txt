@@ -2,3 +2,5 @@ numpy
 pyplusplus
 pygccxml 
 matplotlib
+scipy
+tornado
